@@ -6,3 +6,5 @@ C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\C
 C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Prototipo\Prototipo\Capa_controlador\obj\Debug\Controlador_PrototipoMenu.csproj.CopyComplete
 C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Prototipo\Prototipo\Capa_controlador\obj\Debug\Controlador_PrototipoMenu.dll
 C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Prototipo\Prototipo\Capa_controlador\obj\Debug\Controlador_PrototipoMenu.pdb
+C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Prototipo\Prototipo\Capa_controlador\bin\Debug\Modelo_PrototipoMenu.dll
+C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Prototipo\Prototipo\Capa_controlador\bin\Debug\Modelo_PrototipoMenu.pdb

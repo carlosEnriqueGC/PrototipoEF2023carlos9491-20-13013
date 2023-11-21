@@ -43,3 +43,6 @@ C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\C
 C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Prototipo\Prototipo\Capa_vista\obj\Debug\Vista_PrototipoMenu.csproj.CopyComplete
 C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Prototipo\Prototipo\Capa_vista\obj\Debug\Vista_PrototipoMenu.dll
 C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Prototipo\Prototipo\Capa_vista\obj\Debug\Vista_PrototipoMenu.pdb
+C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Prototipo\Prototipo\Capa_vista\bin\Debug\Modelo_PrototipoMenu.dll
+C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Prototipo\Prototipo\Capa_vista\bin\Debug\Modelo_PrototipoMenu.pdb
+C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Prototipo\Prototipo\Capa_vista\obj\Debug\Vista_PrototipoMenu.reporte.resources

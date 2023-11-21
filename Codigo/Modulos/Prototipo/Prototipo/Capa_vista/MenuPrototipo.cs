@@ -25,7 +25,8 @@ namespace Vista_PrototipoMenu
             //Llamada metodo de libreria Controlador del modulo de Seguridad
             cn.deshabilitarApps(apps);
             //Llamada metodo de libreria Controlador del modulo de Seguridad
-            cn.getAccesoApp(1002, apps[0]);
+            cn.getAccesoApp(10001, apps[0]);
+            //cn.getAccesoApp(10005, apps[0]);
         }
         
         //Validaciones que si son visibles los panales los oculta
@@ -91,6 +92,14 @@ namespace Vista_PrototipoMenu
         private void BTNFACULTADES_Click(object sender, EventArgs e)
         {
             frmFacultades form = new frmFacultades();
+            form.MdiParent = this;
+            form.Show();
+            hideSubMenu();
+        }
+
+        private void BTNREPORTE_Click(object sender, EventArgs e)
+        {
+            reporte form = new reporte();
             form.MdiParent = this;
             form.Show();
             hideSubMenu();
