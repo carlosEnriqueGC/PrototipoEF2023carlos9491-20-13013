@@ -21,7 +21,7 @@ namespace Vista_PrototipoMenu
         {
             InitializeComponent();
             //Control para habilitar opciones del menu
-            Button[] apps = {btnaplicaciones};
+            Button[] apps = {BTNFACULTADES};
             //Llamada metodo de libreria Controlador del modulo de Seguridad
             cn.deshabilitarApps(apps);
             //Llamada metodo de libreria Controlador del modulo de Seguridad
@@ -72,16 +72,6 @@ namespace Vista_PrototipoMenu
         {
             showSubMenu(panelseguridad);
         }
-        //Método que muestra el formulario indicado
-        //Método que muestra el formulario indicado
-        private void btnaplicaciones_Click(object sender, EventArgs e)
-        {
-            frmAplicaciones form = new frmAplicaciones();
-            form.MdiParent = this;
-            form.Show();
-            hideSubMenu();
-        }
-        //Método que muestra el formulario indicado
 
         private void btninicio_Click(object sender, EventArgs e)
         {
@@ -97,5 +87,13 @@ namespace Vista_PrototipoMenu
         {
             Help.ShowHelp(this, "umg.chm");            
         }
-     }
+
+        private void BTNFACULTADES_Click(object sender, EventArgs e)
+        {
+            frmFacultades form = new frmFacultades();
+            form.MdiParent = this;
+            form.Show();
+            hideSubMenu();
+        }
+    }
 }

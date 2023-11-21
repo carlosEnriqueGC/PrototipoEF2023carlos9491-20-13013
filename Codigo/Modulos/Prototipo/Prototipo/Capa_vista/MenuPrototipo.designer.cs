@@ -30,10 +30,10 @@ namespace Vista_PrototipoMenu
         private void InitializeComponent()
         {
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btninicio = new System.Windows.Forms.Button();
             this.btnmanteniminetos = new System.Windows.Forms.Button();
             this.panelTranportes = new System.Windows.Forms.Panel();
-            this.btnaplicaciones = new System.Windows.Forms.Button();
             this.btnProcesos = new System.Windows.Forms.Button();
             this.PanelAuditoria = new System.Windows.Forms.Panel();
             this.btnReportes = new System.Windows.Forms.Button();
@@ -43,11 +43,11 @@ namespace Vista_PrototipoMenu
             this.btnayuda = new System.Windows.Forms.Button();
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.btnsalir = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.BTNFACULTADES = new System.Windows.Forms.Button();
             this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelTranportes.SuspendLayout();
             this.panelSideMenu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelLogo
@@ -59,6 +59,18 @@ namespace Vista_PrototipoMenu
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(555, 209);
             this.panelLogo.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Image = global::Vista_PrototipoMenu.Properties.Resources.prototipofinal2;
+            this.pictureBox1.Location = new System.Drawing.Point(36, 13);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(277, 186);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
             // 
             // btninicio
             // 
@@ -103,7 +115,7 @@ namespace Vista_PrototipoMenu
             // panelTranportes
             // 
             this.panelTranportes.BackColor = System.Drawing.Color.LightSlateGray;
-            this.panelTranportes.Controls.Add(this.btnaplicaciones);
+            this.panelTranportes.Controls.Add(this.BTNFACULTADES);
             this.panelTranportes.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTranportes.Location = new System.Drawing.Point(0, 329);
             this.panelTranportes.Margin = new System.Windows.Forms.Padding(4);
@@ -111,23 +123,6 @@ namespace Vista_PrototipoMenu
             this.panelTranportes.Size = new System.Drawing.Size(555, 231);
             this.panelTranportes.TabIndex = 3;
             this.panelTranportes.Visible = false;
-            // 
-            // btnaplicaciones
-            // 
-            this.btnaplicaciones.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnaplicaciones.FlatAppearance.BorderSize = 0;
-            this.btnaplicaciones.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnaplicaciones.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.btnaplicaciones.Location = new System.Drawing.Point(0, 0);
-            this.btnaplicaciones.Margin = new System.Windows.Forms.Padding(4);
-            this.btnaplicaciones.Name = "btnaplicaciones";
-            this.btnaplicaciones.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
-            this.btnaplicaciones.Size = new System.Drawing.Size(555, 66);
-            this.btnaplicaciones.TabIndex = 3;
-            this.btnaplicaciones.Text = "APLICACIONES";
-            this.btnaplicaciones.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnaplicaciones.UseVisualStyleBackColor = true;
-            this.btnaplicaciones.Click += new System.EventHandler(this.btnaplicaciones_Click);
             // 
             // btnProcesos
             // 
@@ -286,17 +281,22 @@ namespace Vista_PrototipoMenu
             this.btnsalir.UseVisualStyleBackColor = false;
             this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
-            // pictureBox1
+            // BTNFACULTADES
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Image = global::Vista_PrototipoMenu.Properties.Resources.prototipofinal2;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 13);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(277, 186);
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
+            this.BTNFACULTADES.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BTNFACULTADES.FlatAppearance.BorderSize = 0;
+            this.BTNFACULTADES.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNFACULTADES.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.BTNFACULTADES.Location = new System.Drawing.Point(0, 0);
+            this.BTNFACULTADES.Margin = new System.Windows.Forms.Padding(4);
+            this.BTNFACULTADES.Name = "BTNFACULTADES";
+            this.BTNFACULTADES.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
+            this.BTNFACULTADES.Size = new System.Drawing.Size(555, 66);
+            this.BTNFACULTADES.TabIndex = 4;
+            this.BTNFACULTADES.Text = "FACULTADES";
+            this.BTNFACULTADES.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNFACULTADES.UseVisualStyleBackColor = true;
+            this.BTNFACULTADES.Click += new System.EventHandler(this.BTNFACULTADES_Click);
             // 
             // MenuPrototipo
             // 
@@ -310,9 +310,9 @@ namespace Vista_PrototipoMenu
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu Prototipo";
             this.panelLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelTranportes.ResumeLayout(false);
             this.panelSideMenu.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -324,7 +324,6 @@ namespace Vista_PrototipoMenu
         private System.Windows.Forms.Button btninicio;
         private System.Windows.Forms.Button btnmanteniminetos;
         private System.Windows.Forms.Panel panelTranportes;
-        private System.Windows.Forms.Button btnaplicaciones;
         private System.Windows.Forms.Button btnProcesos;
         private System.Windows.Forms.Panel PanelAuditoria;
         private System.Windows.Forms.Button btnReportes;
@@ -334,5 +333,6 @@ namespace Vista_PrototipoMenu
         private System.Windows.Forms.Button btnayuda;
         private System.Windows.Forms.Panel panelSideMenu;
         private System.Windows.Forms.Button btnsalir;
+        private System.Windows.Forms.Button BTNFACULTADES;
     }
 }

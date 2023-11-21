@@ -192,6 +192,7 @@ namespace MenuHCV
             this.btnPractica.Text = "Practica";
             this.btnPractica.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnPractica.UseVisualStyleBackColor = false;
+            this.btnPractica.Visible = false;
             this.btnPractica.Click += new System.EventHandler(this.btnCxP_Click);
             // 
             // btnVentas
