@@ -12,6 +12,8 @@ using Vista_Seguridad;
 using CapaVistaVentasCXC;
 using CapaVistaComprasCXP;
 using CapaVistaPractica;
+using Vista_PrototipoMenu;
+
 //Comentado por George Mayén 25/02/2023
 namespace MenuHCV
 {
@@ -34,8 +36,9 @@ namespace MenuHCV
             cn.getAccesoApp(5000, apps[4]);  //Modulo Bancos
             cn.getAccesoApp(6000, apps[5]);  //Modulo Nominas
             cn.getAccesoApp(7000, apps[6]);  //Modulo Hoteleria
-            cn.getAccesoApp(8000, apps[7]);  //Modulo Prototipo
+            cn.getAccesoApp(10000, apps[7]);  //Modulo Prototipo
             cn.getAccesoApp(9000, apps[8]);  //Modulo Practica
+
 
 
 
@@ -117,9 +120,9 @@ namespace MenuHCV
 
         private void btnPrototipo_Click(object sender, EventArgs e)
         {
-            //Vista_PrototipoMenu.MenuPrototipo form = new Vista_PrototipoMenu.MenuPrototipo();
-            //form.Show();
-            //cn.setBtitacora("8000", "Ingreso Prototipo");
+            Vista_PrototipoMenu.MenuPrototipo form = new Vista_PrototipoMenu.MenuPrototipo();
+            form.Show();
+            cn.setBtitacora("10000", "Ingreso Prototipo");
         }
         //Método que ingresa un valor a la bitacora de acuerdo el módulo
 

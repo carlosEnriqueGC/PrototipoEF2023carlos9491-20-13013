@@ -34,6 +34,7 @@ namespace Vista_PrototipoMenu
             this.btninicio = new System.Windows.Forms.Button();
             this.btnmanteniminetos = new System.Windows.Forms.Button();
             this.panelTranportes = new System.Windows.Forms.Panel();
+            this.BTNFACULTADES = new System.Windows.Forms.Button();
             this.btnProcesos = new System.Windows.Forms.Button();
             this.PanelAuditoria = new System.Windows.Forms.Panel();
             this.btnReportes = new System.Windows.Forms.Button();
@@ -43,10 +44,12 @@ namespace Vista_PrototipoMenu
             this.btnayuda = new System.Windows.Forms.Button();
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.btnsalir = new System.Windows.Forms.Button();
-            this.BTNFACULTADES = new System.Windows.Forms.Button();
+            this.BTNREPORTE = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panelLogo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelTranportes.SuspendLayout();
+            this.panelseguridad.SuspendLayout();
             this.panelSideMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -124,6 +127,23 @@ namespace Vista_PrototipoMenu
             this.panelTranportes.TabIndex = 3;
             this.panelTranportes.Visible = false;
             // 
+            // BTNFACULTADES
+            // 
+            this.BTNFACULTADES.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BTNFACULTADES.FlatAppearance.BorderSize = 0;
+            this.BTNFACULTADES.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNFACULTADES.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.BTNFACULTADES.Location = new System.Drawing.Point(0, 0);
+            this.BTNFACULTADES.Margin = new System.Windows.Forms.Padding(4);
+            this.BTNFACULTADES.Name = "BTNFACULTADES";
+            this.BTNFACULTADES.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
+            this.BTNFACULTADES.Size = new System.Drawing.Size(555, 66);
+            this.BTNFACULTADES.TabIndex = 4;
+            this.BTNFACULTADES.Text = "FACULTADES";
+            this.BTNFACULTADES.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNFACULTADES.UseVisualStyleBackColor = true;
+            this.BTNFACULTADES.Click += new System.EventHandler(this.BTNFACULTADES_Click);
+            // 
             // btnProcesos
             // 
             this.btnProcesos.BackColor = System.Drawing.Color.DarkSlateGray;
@@ -178,6 +198,8 @@ namespace Vista_PrototipoMenu
             // panelseguridad
             // 
             this.panelseguridad.BackColor = System.Drawing.Color.LightSlateGray;
+            this.panelseguridad.Controls.Add(this.button2);
+            this.panelseguridad.Controls.Add(this.BTNREPORTE);
             this.panelseguridad.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelseguridad.Location = new System.Drawing.Point(0, 848);
             this.panelseguridad.Margin = new System.Windows.Forms.Padding(4);
@@ -281,22 +303,38 @@ namespace Vista_PrototipoMenu
             this.btnsalir.UseVisualStyleBackColor = false;
             this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
-            // BTNFACULTADES
+            // BTNREPORTE
             // 
-            this.BTNFACULTADES.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BTNFACULTADES.FlatAppearance.BorderSize = 0;
-            this.BTNFACULTADES.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BTNFACULTADES.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.BTNFACULTADES.Location = new System.Drawing.Point(0, 0);
-            this.BTNFACULTADES.Margin = new System.Windows.Forms.Padding(4);
-            this.BTNFACULTADES.Name = "BTNFACULTADES";
-            this.BTNFACULTADES.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
-            this.BTNFACULTADES.Size = new System.Drawing.Size(555, 66);
-            this.BTNFACULTADES.TabIndex = 4;
-            this.BTNFACULTADES.Text = "FACULTADES";
-            this.BTNFACULTADES.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.BTNFACULTADES.UseVisualStyleBackColor = true;
-            this.BTNFACULTADES.Click += new System.EventHandler(this.BTNFACULTADES_Click);
+            this.BTNREPORTE.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BTNREPORTE.FlatAppearance.BorderSize = 0;
+            this.BTNREPORTE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNREPORTE.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.BTNREPORTE.Location = new System.Drawing.Point(0, 0);
+            this.BTNREPORTE.Margin = new System.Windows.Forms.Padding(4);
+            this.BTNREPORTE.Name = "BTNREPORTE";
+            this.BTNREPORTE.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
+            this.BTNREPORTE.Size = new System.Drawing.Size(555, 66);
+            this.BTNREPORTE.TabIndex = 5;
+            this.BTNREPORTE.Text = "FACULTADES";
+            this.BTNREPORTE.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNREPORTE.UseVisualStyleBackColor = true;
+            this.BTNREPORTE.Click += new System.EventHandler(this.BTNREPORTE_Click);
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.button2.Location = new System.Drawing.Point(0, 66);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(85, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(555, 66);
+            this.button2.TabIndex = 6;
+            this.button2.Text = "FACULTADES";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // MenuPrototipo
             // 
@@ -312,6 +350,7 @@ namespace Vista_PrototipoMenu
             this.panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelTranportes.ResumeLayout(false);
+            this.panelseguridad.ResumeLayout(false);
             this.panelSideMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -334,5 +373,7 @@ namespace Vista_PrototipoMenu
         private System.Windows.Forms.Panel panelSideMenu;
         private System.Windows.Forms.Button btnsalir;
         private System.Windows.Forms.Button BTNFACULTADES;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BTNREPORTE;
     }
 }
