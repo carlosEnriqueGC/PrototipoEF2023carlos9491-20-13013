@@ -1,0 +1,6 @@
+C:\Users\callo\Music\GIT\Proyectos\proyectoads22023GESTION_COMERCIAL\Codigo\Modulos\Administracion\ComprasCxp\CapaModeloComprasCXP\bin\Debug\CapaModeloComprasCXP.dll
+C:\Users\callo\Music\GIT\Proyectos\proyectoads22023GESTION_COMERCIAL\Codigo\Modulos\Administracion\ComprasCxp\CapaModeloComprasCXP\bin\Debug\CapaModeloComprasCXP.pdb
+C:\Users\callo\Music\GIT\Proyectos\proyectoads22023GESTION_COMERCIAL\Codigo\Modulos\Administracion\ComprasCxp\CapaModeloComprasCXP\obj\Debug\CapaModeloComprasCXP.csproj.AssemblyReference.cache
+C:\Users\callo\Music\GIT\Proyectos\proyectoads22023GESTION_COMERCIAL\Codigo\Modulos\Administracion\ComprasCxp\CapaModeloComprasCXP\obj\Debug\CapaModeloComprasCXP.csproj.CoreCompileInputs.cache
+C:\Users\callo\Music\GIT\Proyectos\proyectoads22023GESTION_COMERCIAL\Codigo\Modulos\Administracion\ComprasCxp\CapaModeloComprasCXP\obj\Debug\CapaModeloComprasCXP.dll
+C:\Users\callo\Music\GIT\Proyectos\proyectoads22023GESTION_COMERCIAL\Codigo\Modulos\Administracion\ComprasCxp\CapaModeloComprasCXP\obj\Debug\CapaModeloComprasCXP.pdb
