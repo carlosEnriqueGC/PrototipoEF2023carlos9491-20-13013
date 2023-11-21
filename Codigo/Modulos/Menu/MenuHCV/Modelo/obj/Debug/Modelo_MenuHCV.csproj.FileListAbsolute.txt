@@ -4,3 +4,9 @@ C:\Users\callo\Music\GIT\Proyectos\proyectoads22023GESTION_COMERCIAL\Codigo\Modu
 C:\Users\callo\Music\GIT\Proyectos\proyectoads22023GESTION_COMERCIAL\Codigo\Modulos\Menu\MenuHCV\Modelo\obj\Debug\Modelo_MenuHCV.csproj.CoreCompileInputs.cache
 C:\Users\callo\Music\GIT\Proyectos\proyectoads22023GESTION_COMERCIAL\Codigo\Modulos\Menu\MenuHCV\Modelo\obj\Debug\Modelo_MenuHCV.dll
 C:\Users\callo\Music\GIT\Proyectos\proyectoads22023GESTION_COMERCIAL\Codigo\Modulos\Menu\MenuHCV\Modelo\obj\Debug\Modelo_MenuHCV.pdb
+C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Menu\MenuHCV\Modelo\bin\Debug\Modelo_MenuHCV.dll
+C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Menu\MenuHCV\Modelo\bin\Debug\Modelo_MenuHCV.pdb
+C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Menu\MenuHCV\Modelo\obj\Debug\Modelo_MenuHCV.csproj.AssemblyReference.cache
+C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Menu\MenuHCV\Modelo\obj\Debug\Modelo_MenuHCV.csproj.CoreCompileInputs.cache
+C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Menu\MenuHCV\Modelo\obj\Debug\Modelo_MenuHCV.dll
+C:\Users\callo\Music\EXAMEN FINAL A2\Examen\PrototipoEF2023carlos9491-20-13013\Codigo\Modulos\Menu\MenuHCV\Modelo\obj\Debug\Modelo_MenuHCV.pdb
