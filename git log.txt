@@ -1,0 +1,184 @@
+$ git pull origin main
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), 650 bytes | 325.00 KiB/s, done.
+From https://github.com/carlosEnriqueGC/PrototipoEF2023carlos9491-20-13013
+ * branch            main       -> FETCH_HEAD
+   d314231..45f25c1  main       -> origin/main
+Updating d314231..45f25c1
+Fast-forward
+ .../VentasCxc/.vs/VentasCXC/v16/.suo               | Bin 148992 -> 152064 bytes
+ ...roladorVentasCXC.csproj.AssemblyReference.cache | Bin 794 -> 1585 bytes
+ .../DesignTimeResolveAssemblyReferencesInput.cache | Bin 7049 -> 7079 bytes
+ ...aModeloVentasCXC.csproj.AssemblyReference.cache | Bin 1212 -> 4084 bytes
+ .../DesignTimeResolveAssemblyReferencesInput.cache | Bin 6870 -> 6890 bytes
+ ...paVistaVentasCXC.csproj.AssemblyReference.cache | Bin 67076 -> 71783 bytes
+ .../DesignTimeResolveAssemblyReferencesInput.cache | Bin 7834 -> 7894 bytes
+ .../Modulos/Menu/Ejecucion/.vs/Ejecucion/v16/.suo  | Bin 67584 -> 67584 bytes
+ .../Ejecucion/Ejecucion/bin/Debug/Ejecucion.exe    | Bin 7168 -> 7168 bytes
+ .../Ejecucion/Ejecucion/bin/Debug/Ejecucion.pdb    | Bin 32256 -> 32256 bytes
+ .../Ejecucion/bin/Debug/Vista_MenuHCV.dll          | Bin 2681344 -> 2681856 bytes
+ .../Ejecucion/bin/Debug/Vista_MenuHCV.pdb          | Bin 58880 -> 60928 bytes
+ .../Ejecucion/bin/Debug/Vista_PrototipoMenu.dll    | Bin 0 -> 2509824 bytes
+ .../Ejecucion/bin/Debug/Vista_PrototipoMenu.pdb    | Bin 0 -> 73216 bytes
+ .../DesignTimeResolveAssemblyReferencesInput.cache | Bin 7576 -> 7607 bytes
+ .../Debug/Ejecucion.csproj.AssemblyReference.cache | Bin 41216 -> 43662 bytes
+ .../Debug/Ejecucion.csproj.CoreCompileInputs.cache |   2 +-
+ .../Debug/Ejecucion.csproj.FileListAbsolute.txt    |  64 ++++++++
+ .../Debug/Ejecucion.csproj.GenerateResource.cache  | Bin 954 -> 954 bytes
+ .../Ejecucion/Ejecucion/obj/Debug/Ejecucion.exe    | Bin 7168 -> 7168 bytes
+ .../Ejecucion/Ejecucion/obj/Debug/Ejecucion.pdb    | Bin 32256 -> 32256 bytes
+ Codigo/Modulos/Menu/MenuHCV/.vs/MenuHCV/v16/.suo   | Bin 106496 -> 94720 bytes
+ Codigo/Modulos/Menu/MenuHCV/Capa_vista/Menup.cs    |  11 +-
+ .../MenuHCV/Capa_vista/bin/Debug/Vista_MenuHCV.dll | Bin 2681856 -> 2681856 bytes
+ .../MenuHCV/Capa_vista/bin/Debug/Vista_MenuHCV.pdb | Bin 60928 -> 60928 bytes
+ .../Capa_vista/bin/Debug/Vista_PrototipoMenu.dll   | Bin 2486784 -> 2509824 bytes
+ .../Capa_vista/bin/Debug/Vista_PrototipoMenu.pdb   | Bin 50688 -> 73216 bytes
+ .../DesignTimeResolveAssemblyReferences.cache      | Bin 805 -> 405 bytes
+ .../DesignTimeResolveAssemblyReferencesInput.cache | Bin 11655 -> 11922 bytes
+ .../Vista_MenuHCV.csproj.AssemblyReference.cache   | Bin 75233 -> 32014 bytes
+ .../Vista_MenuHCV.csproj.GenerateResource.cache    | Bin 2253 -> 2253 bytes
+ .../MenuHCV/Capa_vista/obj/Debug/Vista_MenuHCV.dll | Bin 2681856 -> 2681856 bytes
+ .../MenuHCV/Capa_vista/obj/Debug/Vista_MenuHCV.pdb | Bin 60928 -> 60928 bytes
+ .../Prototipo/.vs/Prototipo_Menu/v16/.suo          | Bin 105472 -> 107520 bytes
+ .../Capa_controlador/ControladorPrototipo.cs       |  16 ++
+ .../Controlador_PrototipoMenu.csproj               |   1 +
+ .../bin/Debug/Controlador_PrototipoMenu.dll        | Bin 4096 -> 4096 bytes
+ .../bin/Debug/Controlador_PrototipoMenu.pdb        | Bin 15872 -> 19968 bytes
+ .../bin/Debug/Modelo_PrototipoMenu.dll             | Bin 0 -> 4608 bytes
+ .../bin/Debug/Modelo_PrototipoMenu.pdb             | Bin 0 -> 24064 bytes
+ ...or_PrototipoMenu.csproj.AssemblyReference.cache | Bin 11 -> 705 bytes
+ ...or_PrototipoMenu.csproj.CoreCompileInputs.cache |   2 +-
+ ...lador_PrototipoMenu.csproj.FileListAbsolute.txt |   2 +
+ .../obj/Debug/Controlador_PrototipoMenu.dll        | Bin 4096 -> 4096 bytes
+ .../obj/Debug/Controlador_PrototipoMenu.pdb        | Bin 15872 -> 19968 bytes
+ .../DesignTimeResolveAssemblyReferencesInput.cache | Bin 7310 -> 7489 bytes
+ .../Prototipo/Capa_vista/MenuPrototipo.cs          |  11 +-
+ .../Prototipo/Capa_vista/MenuPrototipo.designer.cs |  75 ++++++---
+ .../Capa_vista/Vista_PrototipoMenu.csproj          |  29 ++++
+ .../Capa_vista/Vista_PrototipoMenu.csproj.user     |   6 +
+ .../bin/Debug/Controlador_PrototipoMenu.dll        | Bin 4096 -> 4096 bytes
+ .../bin/Debug/Controlador_PrototipoMenu.pdb        | Bin 15872 -> 19968 bytes
+ .../Capa_vista/bin/Debug/Modelo_PrototipoMenu.dll  | Bin 0 -> 4608 bytes
+ .../Capa_vista/bin/Debug/Modelo_PrototipoMenu.pdb  | Bin 0 -> 24064 bytes
+ .../Capa_vista/bin/Debug/Vista_PrototipoMenu.dll   | Bin 2486784 -> 2509824 bytes
+ .../Capa_vista/bin/Debug/Vista_PrototipoMenu.pdb   | Bin 50688 -> 73216 bytes
+ .../Prototipo/Capa_vista/frmFacultades.Designer.cs | 101 +++++++++++-
+ .../Prototipo/Capa_vista/frmFacultades.cs          |  15 +-
+ .../DesignTimeResolveAssemblyReferences.cache      | Bin 405 -> 277 bytes
+ .../DesignTimeResolveAssemblyReferencesInput.cache | Bin 12655 -> 13943 bytes
+ .../Capa_vista/obj/Debug/TempPE/REPORTE1.cs.dll    | Bin 0 -> 4608 bytes
+ .../obj/Debug/TempPE/reporteFacultad.cs.dll        | Bin 0 -> 5120 bytes
+ ...ta_PrototipoMenu.csproj.CoreCompileInputs.cache |   2 +-
+ ...Vista_PrototipoMenu.csproj.FileListAbsolute.txt |   3 +
+ ...sta_PrototipoMenu.csproj.GenerateResource.cache | Bin 2393 -> 2517 bytes
+ .../Capa_vista/obj/Debug/Vista_PrototipoMenu.dll   | Bin 2486784 -> 2509824 bytes
+ .../Capa_vista/obj/Debug/Vista_PrototipoMenu.pdb   | Bin 50688 -> 73216 bytes
+ .../Debug/Vista_PrototipoMenu.reporte.resources    | Bin 0 -> 180 bytes
+ .../Prototipo/Capa_vista/reporte.Designer.cs       |  65 ++++++++
+ .../Prototipo/Prototipo/Capa_vista/reporte.cs      |  20 +++
+ .../Prototipo/Prototipo/Capa_vista/reporte.resx    | 123 +++++++++++++++
+ .../Prototipo/Capa_vista/reporteFacultad.cs        | 169 +++++++++++++++++++++
+ .../Prototipo/Capa_vista/reporteFacultad.rpt       | Bin 0 -> 16384 bytes
+ .../Modulos/Prototipo/Prototipo/Modelo/Conexion.cs |  39 +++++
+ .../Prototipo/Modelo/Modelo_PrototipoMenu.csproj   |   2 +
+ .../Prototipo/Prototipo/Modelo/Sentencias.cs       |  15 ++
+ .../Modelo/bin/Debug/Modelo_PrototipoMenu.dll      | Bin 4096 -> 4608 bytes
+ .../Modelo/bin/Debug/Modelo_PrototipoMenu.pdb      | Bin 15872 -> 24064 bytes
+ ...lo_PrototipoMenu.csproj.AssemblyReference.cache | Bin 11 -> 151 bytes
+ ...lo_PrototipoMenu.csproj.CoreCompileInputs.cache |   2 +-
+ .../Modelo/obj/Debug/Modelo_PrototipoMenu.dll      | Bin 4096 -> 4608 bytes
+ .../Modelo/obj/Debug/Modelo_PrototipoMenu.pdb      | Bin 15872 -> 24064 bytes
+ 82 files changed, 747 insertions(+), 28 deletions(-)
+ create mode 100644 Codigo/Modulos/Menu/Ejecucion/Ejecucion/bin/Debug/Vista_PrototipoMenu.dll
+ create mode 100644 Codigo/Modulos/Menu/Ejecucion/Ejecucion/bin/Debug/Vista_PrototipoMenu.pdb
+ create mode 100644 Codigo/Modulos/Prototipo/Prototipo/Capa_controlador/ControladorPrototipo.cs
+ create mode 100644 Codigo/Modulos/Prototipo/Prototipo/Capa_controlador/bin/Debug/Modelo_PrototipoMenu.dll
+ create mode 100644 Codigo/Modulos/Prototipo/Prototipo/Capa_controlador/bin/Debug/Modelo_PrototipoMenu.pdb
+ create mode 100644 Codigo/Modulos/Prototipo/Prototipo/Capa_vista/Vista_PrototipoMenu.csproj.user
+ create mode 100644 Codigo/Modulos/Prototipo/Prototipo/Capa_vista/bin/Debug/Modelo_PrototipoMenu.dll
+ create mode 100644 Codigo/Modulos/Prototipo/Prototipo/Capa_vista/bin/Debug/Modelo_PrototipoMenu.pdb
+ create mode 100644 Codigo/Modulos/Prototipo/Prototipo/Capa_vista/obj/Debug/TempPE/REPORTE1.cs.dll
+ create mode 100644 Codigo/Modulos/Prototipo/Prototipo/Capa_vista/obj/Debug/TempPE/reporteFacultad.cs.dll
+ create mode 100644 Codigo/Modulos/Prototipo/Prototipo/Capa_vista/obj/Debug/Vista_PrototipoMenu.reporte.resources
+ create mode 100644 Codigo/Modulos/Prototipo/Prototipo/Capa_vista/reporte.Designer.cs
+commit 45f25c1d5a1d766608e34153335f5d1f437098f0 (HEAD -> main, origin/main, origin/HEAD, todolisto)
+Merge: d314231 49b273b
+Author: carlosEnriqueGC <98114171+carlosEnriqueGC@users.noreply.github.com>
+Date:   Tue Nov 21 09:52:29 2023 -0600
+
+    Merge pull request #3 from carlosEnriqueGC/MantenimientoCarlos-9491-20-13013
+    Mantenimiento carlos 9491 20 13013
+
+commit 49b273ba31db6f5a8a32dc6bca067bcbc2793dce (origin/MantenimientoCarlos-9491-20-13013, MantenimientoCarlos-9491-20-13013)
+Author: carlos enrique <cguzmanc10@miumg.edu.gt>
+Date:   Tue Nov 21 09:51:20 2023 -0600
+
+    mantenimiento con su reporte listo
+
+commit 44f3677088eec181877acf96ef8df7a5d5185dd5
+Author: carlos enrique <cguzmanc10@miumg.edu.gt>
+Date:   Tue Nov 21 09:49:55 2023 -0600
+
+    mantenimiento facultad unico realizado funcional
+
+:...skipping...
+commit 45f25c1d5a1d766608e34153335f5d1f437098f0 (HEAD -> main, origin/main, origin/HEAD, todolisto)
+Merge: d314231 49b273b
+Author: carlosEnriqueGC <98114171+carlosEnriqueGC@users.noreply.github.com>
+Date:   Tue Nov 21 09:52:29 2023 -0600
+
+    Merge pull request #3 from carlosEnriqueGC/MantenimientoCarlos-9491-20-13013
+
+    Mantenimiento carlos 9491 20 13013
+
+commit 49b273ba31db6f5a8a32dc6bca067bcbc2793dce (origin/MantenimientoCarlos-9491-20-13013, MantenimientoCarlos-9491-20-13013)
+Author: carlos enrique <cguzmanc10@miumg.edu.gt>
+Date:   Tue Nov 21 09:51:20 2023 -0600
+
+    mantenimiento con su reporte listo
+
+commit 44f3677088eec181877acf96ef8df7a5d5185dd5
+Author: carlos enrique <cguzmanc10@miumg.edu.gt>
+Date:   Tue Nov 21 09:49:55 2023 -0600
+
+    mantenimiento facultad unico realizado funcional
+
+commit d314231f816a6782d7b45c59cce9122e143df494
+Merge: 60b738a bdfdac5
+Author: carlosEnriqueGC <98114171+carlosEnriqueGC@users.noreply.github.com>
+Date:   Tue Nov 21 08:45:11 2023 -0600
+
+    Merge pull request #2 from carlosEnriqueGC/ContenedorCARLOS-9491-20-13013
+
+    mdi con mantenimiento no funcional y login con mdi prototipo listo
+
+commit bdfdac5c6576549dd6ab170bbdb9b729ee9adc2a (origin/ContenedorCARLOS-9491-20-13013)
+Author: carlos enrique <cguzmanc10@miumg.edu.gt>
+Date:   Tue Nov 21 08:43:28 2023 -0600
+
+    mdi con mantenimiento no funcional y login con mdi prototipo listo
+
+commit 60b738a35dd199a8ca7faa1896b29ecec118e24a
+Merge: 0d2aab2 d680ee1
+Author: carlosEnriqueGC <98114171+carlosEnriqueGC@users.noreply.github.com>
+Date:   Tue Nov 21 08:31:29 2023 -0600
+
+    Merge pull request #1 from carlosEnriqueGC/baseProyectoCarlos9491-20-13013
+
+    se añade la base del sistema
+
+commit d680ee1985d953c23cc57ab088ba34f885b69c0c (origin/baseProyectoCarlos9491-20-13013, baseProyectoCarlos9491-20-13013)
+Author: carlos enrique <cguzmanc10@miumg.edu.gt>
+Date:   Tue Nov 21 08:30:26 2023 -0600
+
+    se añade la base del sistema
+
+commit 0d2aab2025b0fac2fd39725adfe5a212c6bc91dd
+Author: carlosEnriqueGC <98114171+carlosEnriqueGC@users.noreply.github.com>
+Date:   Tue Nov 21 08:26:04 2023 -0600
+
+    Initial commit
+~
+(END)
